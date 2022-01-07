@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	_ "github.com/mattn/go-sqlite3"
 	"github.com/volatiletech/sqlboiler/v4/drivers"
+	_ "modernc.org/sqlite"
 )
 
 var (
